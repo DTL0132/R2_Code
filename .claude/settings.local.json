@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(New-Item *)",
+      "Bash(find *)",
+      "Bash(python3 -c \"import PyPDF2; print\\('PyPDF2 available'\\)\")",
+      "Bash(python3 -c \"import pikepdf; print\\('pikepdf'\\)\")",
+      "Bash(pdftotext -layout \"RoboMaster开发版用户手册.pdf\" -)",
+      "Bash(python3 -c ' *)",
+      "Bash(python3 -c \"from PIL import Image; print\\('ok'\\)\")",
+      "Bash(python -c \"from PIL import Image; img = Image.open\\('屏幕截图 2026-06-03 202346.png'\\); w,h = img.size; print\\(w,h\\); r = min\\(1200/w,1200/h\\); img.resize\\(\\(int\\(w*r\\),int\\(h*r\\)\\), Image.LANCZOS\\).save\\('_pid.png'\\); print\\('done'\\)\")",
+      "Bash(python -c \"from PIL import Image; img = Image.open\\('屏幕截图 2026-06-03 202346.png'\\); img.resize\\(\\(1276,800\\), Image.LANCZOS\\).save\\('_pid.png'\\); print\\('done'\\)\")",
+      "Bash(python -c ' *)",
+      "Bash(arm-none-eabi-nm dvc_motor.o)"
+    ]
+  }
+}
